@@ -140,17 +140,19 @@ transition: all 100ms linear;
 
 
 .main-options{
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 
 .tabs .tab a {
   margin-top: 5px;
+
   padding-top: 5px;
+  font-size: .9rem;
   font-weight: bold;
   font-family: 'Josefin Sans', sans-serif;
-  margin-right: 40px;
+
 
 
   /* color: rgba(38, 166, 154, 0.7); */
@@ -173,4 +175,20 @@ transition: all 100ms linear;
 .tabs .indicator {
   background-color:green;
   /*Custom Color Of Indicator*/
+}
+
+
+
+
+.searchbar{
+  border: 1px solid;
+  position: absolute;
+  left: -250px;
+  top: 15px;
+}
+
+
+.searchbar i i{
+  position: absolute;
+  top: -18px;
 }
