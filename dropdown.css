@@ -1,0 +1,137 @@
+
+nav{
+  background: white;
+}
+
+.login{
+  padding-top: 10px;
+  position: absolute;
+  left: -150px;
+  margin-bottom: 10px;
+}
+
+.nav-item{
+  position: absolute;
+  top: 7px;
+  height:40px;
+
+  margin-left:50px;
+}
+
+.account-dropdown
+{
+
+	display: block;
+  font-family: 'Josefin Sans', sans-serif;
+  /* font-weight:400; */
+	text-decoration:none;
+	font-size: 1.1rem;
+  font-weight: 400;
+	/* line-height:4px; */
+	padding: 13px;
+
+
+}
+
+
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+
+}
+.dropdown{
+    z-index: 1;
+    left: -190px;
+    top: 64px;
+
+    display:none;
+    position:absolute;
+
+    /* background-color: #048962; */
+    /* background-color: rgba(4,137, 98,.7); */
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-right: 0;
+    border: solid 2px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 2.8px 2.2px rgba(255, 255, 255, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 20px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 30px 50px rgba(0, 0, 0, 0.16),
+      0 40px 60px rgba(0, 0, 0, .58);
+
+
+}
+
+
+#primary_nav_wrap ul ul li
+{
+  text-align: left;
+	float:none;
+	/* width:150px */
+
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:100%;
+	/* padding:10px 15px */
+
+}
+
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+
+}
+
+#primary_nav_wrap ul li:hover > .dropdown
+{
+	display:block;
+
+}
+
+
+
+.account-dropdown {
+
+  color: white;
+-webkit-transition: all 100ms linear;
+-moz-transition: all 100ms linear;
+-ms-transition: all 100ms linear;
+-o-transition: all 100ms linear;
+transition: all 100ms linear;}
+
+.account-dropdown:hover {color: #1ca965;
+-webkit-transition: all 100ms linear;
+-moz-transition: all 100ms linear;
+-ms-transition: all 100ms linear;
+-o-transition: all 100ms linear;
+transition: all 100ms linear;
+}
+
+
+
+
+
+
+.notification{
+  top:13px;
+  position: absolute;
+  left: -190px;
+
+  height: 35px;
+}
+
+.noti-dropdown{
+  left: -250px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

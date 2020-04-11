@@ -1,0 +1,99 @@
+
+
+body{
+  background: rgba(203, 232, 197, 0.4);
+}
+
+
+
+.card-reveal{
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.8) !important;
+}
+div.card-reveal span.card-title{
+  color: #ffffff !important;
+}
+.tabs{
+  background-color: transparent;
+}
+
+
+.row{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.card{
+text-align: center;
+min-width: 50%;
+/* margin-top: 50px;
+margin-left: 25px;
+margin-right: 25px;
+margin-bottom: 30px; */
+margin: 7%;
+box-shadow:
+ 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+ 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+ 0 12.5px 20px rgba(0, 0, 0, 0.06),
+ 0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+ 0 60px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+
+.card-action{
+background: black;
+}
+.card-title{
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:400;
+}
+.title{
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  }
+.link{
+  text-align: center;
+  color: rgb(161, 213, 151);
+}
+
+.challange-info{
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.brand{
+height: 15px;
+}
+
+
+
+.z-depth-0{
+  /* background: rgba(207, 207, 207,.5); */
+
+  margin: 30px;
+  /* border-radius: 40px; */
+}
+
+.account-image{
+  margin-top: 15px;
+  height: 30px;
+}
+
+.details{
+  color: black;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.details:hover{
+  color: green;
+  text-decoration: underline;
+  transition: .9s;
+  font-size: 17px;
+}
