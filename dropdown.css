@@ -135,3 +135,42 @@ transition: all 100ms linear;
   padding-left: 10px;
   padding-right: 10px;
 }
+
+
+
+
+.main-options{
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+
+.tabs .tab a {
+  margin-top: 5px;
+  padding-top: 5px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-right: 40px;
+
+
+  /* color: rgba(38, 166, 154, 0.7); */
+  color: black;
+  /*Custom Text Color*/
+}
+
+.tabs .tab a:hover {
+  color:green;
+  /*Custom Color On Hover*/
+}
+
+.tabs .tab a:focus.active {
+  color:green;
+  /*Custom Text Color While Active*/
+
+  /*Custom Background Color While Active*/
+}
+
+.tabs .indicator {
+  background-color:green;
+  /*Custom Color Of Indicator*/
+}
